@@ -1,4 +1,4 @@
-const socket=io();
+const socket=io(PORT);
 const form=document.getElementById('send-container');
 const messageInput=document.getElementById('Message-input')
 const messageContainer=document.querySelector(".container")
