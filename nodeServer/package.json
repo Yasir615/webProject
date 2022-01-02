@@ -4,7 +4,8 @@
   "description": "This is a server of node my chatting app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon nodeServer/index.js"
   },
   "author": "Yasir",
   "license": "ISC",
